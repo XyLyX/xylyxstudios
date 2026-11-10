@@ -1,5 +1,5 @@
 # XyLyX Studios
 
-Static studio homepage. Open `index.html` locally to preview it. To add a release, copy a project card inside the `projects` section and place its cover in `assets/`.
+Open index.html locally to preview the static homepage. To add a release, copy the project card in index.html and add its artwork to assets/.
 
-Intended domain: `xylyxstudios.com`.
+Intended domain: xylyxstudios.com.
