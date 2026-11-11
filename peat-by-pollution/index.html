@@ -47,7 +47,7 @@
 <body>
 <header class="shell top">
 <a class="brand" href="../"><img src="../assets/logo.webp" width="96" height="96" alt="">XyLyX <span>STUDIOS</span></a>
-<nav aria-label="Main navigation"><a href="../#work">More work</a><a class="contact" href="../#contact">Contact</a></nav>
+<nav aria-label="Main navigation"><a href="/works/">Works</a><a href="/visuals/">Visuals</a><a href="/press/">Press</a><a href="/contact/">Contact</a></nav>
 </header>
 <main class="shell">
 <section class="hero" aria-labelledby="song-title">
@@ -63,6 +63,19 @@
 <div><p class="eyebrow">BEHIND THE TRACK</p><h2 id="story-title">Delhi added the smoke</h2></div>
 <div><p>The song imagines a glass of Glenlivet picking up the smoky character of an Islay whisky while its drinker waits at India Gate. The chorus turns the city’s smog into a whisky tasting note.</p><p>The arrangement pairs a spoken intro and playful verses with a disco bassline and a dance chorus. Music and vocals were generated with Suno.</p></div>
 </section>
-</main>
+<section class="media-section" aria-labelledby="watch"><h2 id="watch">Play the full track</h2>
+<iframe class="release-player" width="1280" height="720" title="Peat by Pollution on YouTube" loading="lazy" src="https://www.youtube-nocookie.com/embed/Ekf4F988dWw" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p><a href="https://youtu.be/Ekf4F988dWw">Open the video on YouTube</a></p>
+</section><section class="signup" aria-label="Studio newsletter">
+<h2>Studio updates</h2>
+<p>Get an email when XyLyX Studios has a new release or visual project.</p>
+<form name="newsletter" method="POST" action="/subscribed/" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="newsletter">
+<p hidden><label>Leave this field empty <input name="bot-field"></label></p>
+<label for="newsletter-email">Email address</label>
+<div class="signup-row"><input id="newsletter-email" name="email" type="email" autocomplete="email" required><button class="button primary" type="submit">Sign up</button></div>
+<p class="signup-note">By signing up, you agree to receive studio updates. To leave the list, email <a href="mailto:hello@xylyxstudios.com">hello@xylyxstudios.com</a>.</p>
+</form></section></main>
+<footer class="shell footer"><span>© XyLyX Studios</span><a href="/links/">Studio links</a></footer>
 </body>
 </html>

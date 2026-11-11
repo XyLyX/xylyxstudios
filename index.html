@@ -47,7 +47,7 @@
 <a class="skip" href="#work">Skip to work</a>
 <header class="shell top">
 <a class="brand" href="#" aria-label="XyLyX Studios home"><img src="assets/logo.webp" width="96" height="96" alt="">XyLyX <span>STUDIOS</span></a>
-<nav aria-label="Main navigation"><a href="#work">Work</a><a href="#studio">Studio</a><a class="contact" href="#contact">Contact ↗</a></nav>
+<nav aria-label="Main navigation"><a href="/works/">Works</a><a href="/visuals/">Visuals</a><a href="/press/">Press</a><a href="/contact/">Contact</a></nav>
 </header>
 <main class="shell">
 <section class="hero" aria-labelledby="hero-title">
@@ -65,7 +65,16 @@
 </section>
 <section id="studio" class="split" aria-labelledby="studio-title"><div><p class="eyebrow"><i></i> ABOUT THE STUDIO</p><h2 id="studio-title">Sound. Image. Story.</h2></div><p class="lead">XyLyX Studios is a home for our original creations, from songs and visual pieces to experiments that bring the two together.</p></section>
 <section id="contact" class="split contact-block" aria-labelledby="contact-title"><div><p class="eyebrow"><i></i> CONTACT</p><h2 id="contact-title">Let’s talk.</h2></div><div><p>For collaborations, questions, or feedback on a release.</p><a class="mail" href="mailto:hello@xylyxstudios.com">hello@xylyxstudios.com <span aria-hidden="true">↗</span></a></div></section>
-</main>
-<footer class="shell footer"><span>© XyLyX Studios</span><a href="https://xylyxstudios.com">XyLyXStudios.com</a></footer>
+<section class="signup" aria-label="Studio newsletter">
+<h2>Studio updates</h2>
+<p>Get an email when XyLyX Studios has a new release or visual project.</p>
+<form name="newsletter" method="POST" action="/subscribed/" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="newsletter">
+<p hidden><label>Leave this field empty <input name="bot-field"></label></p>
+<label for="newsletter-email">Email address</label>
+<div class="signup-row"><input id="newsletter-email" name="email" type="email" autocomplete="email" required><button class="button primary" type="submit">Sign up</button></div>
+<p class="signup-note">By signing up, you agree to receive studio updates. To leave the list, email <a href="mailto:hello@xylyxstudios.com">hello@xylyxstudios.com</a>.</p>
+</form></section></main>
+<footer class="shell footer"><span>© XyLyX Studios</span><a href="/links/">Studio links</a></footer>
 </body>
 </html>
